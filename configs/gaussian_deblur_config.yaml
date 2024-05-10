@@ -1,0 +1,22 @@
+conditioning:
+#  method: ps
+  method: DSG
+#  method: ours
+  params:
+    scale: 0.3
+    step_size: 0.5
+    interval: 10
+
+data:
+  name: ffhq
+  root: ./data/samples/
+
+measurement:
+  operator:
+    name: gaussian_blur
+    kernel_size: 61
+    intensity: 3.0
+  
+  noise: 
+    name: gaussian
+    sigma: 0.05

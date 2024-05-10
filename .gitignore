@@ -1,0 +1,8 @@
+__pycache__
+*.tar
+checkpoint*
+images*
+logs*
+*.npy
+*.pt
+.idea*

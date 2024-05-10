@@ -1,0 +1,23 @@
+conditioning:
+#  method: ps
+  method: DSG
+#  method: ours
+  params:
+    scale: 0.3
+    step_size: 0.5
+    interval: 10
+
+data:
+  name: ffhq
+  root: ./data/samples/
+#  root: ./data/imagenet_test/
+
+measurement:
+  operator:
+    name: super_resolution
+    in_shape: !!python/tuple [1, 3, 256, 256]
+    scale_factor: 4
+  
+  noise: 
+    name: gaussian
+    sigma: 0.05
