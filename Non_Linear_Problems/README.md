@@ -5,8 +5,7 @@
 ### Environment
 
 The code is based on [Freedom](https://github.com/vvictoryuki/FreeDoM/tree/main). You can use the conda 
-environment from [Stable Diffusion](https://github.com/CompVis/stable-diffusion). pretrained model 
-for Style/Text-Style Guidance.
+environment from [Stable Diffusion](https://github.com/CompVis/stable-diffusion).
 
 ### FaceID Guidance
 
